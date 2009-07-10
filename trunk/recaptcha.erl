@@ -27,7 +27,7 @@
 
 get_recaptcha_verify_url() -> "http://api-verify.recaptcha.net/verify".
 
-private_key() -> "6LfBFwcAAAAAAFvAxYMEEeRBqNqMOQF5cbT4xcA8".
+private_key() -> "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA".
 
 recaptcha_check_answer(RemoteIp, Challenge, Response) ->
 	inets:start(),
