@@ -1,0 +1,11 @@
+# Introduction #
+
+Erlang doesn't like dashes in module names, so the module is actually just named recaptcha.
+
+
+# Details #
+
+My content is here
+  * Text in **bold** or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
