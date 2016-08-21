@@ -24,13 +24,14 @@
 -module(recaptcha).
 
 -export([recaptcha_check_answer/3]).
-
+-export([test/0]).
 get_recaptcha_verify_url() -> "http://api-verify.recaptcha.net/verify".
 
 private_key() -> "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA".
 
 %%test start
-
+test()->
+	ok.
 %%start end
 recaptcha_check_answer(RemoteIp, Challenge, Response) ->
 	inets:start(),
