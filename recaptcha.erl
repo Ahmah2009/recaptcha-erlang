@@ -29,6 +29,9 @@ get_recaptcha_verify_url() -> "http://api-verify.recaptcha.net/verify".
 
 private_key() -> "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA".
 
+%%test start
+
+%%start end
 recaptcha_check_answer(RemoteIp, Challenge, Response) ->
 	inets:start(),
 	Data = 
